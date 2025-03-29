@@ -1,0 +1,42 @@
+
+    {
+        "SettingsVersion": 1.2,
+        "SimMode": "Multirotor",
+        "RpcEnabled": true,
+        "RpcPort": 41451,
+        "Vehicles": {
+            "Drone1": {
+                "VehicleType": "SimpleFlight",
+                "AutoCreate": true,
+                "UseMavLink": true,
+                "EnableCollisionPassthrough": false,
+                "EnableTrace": false,
+                "MavLink": {
+                    "UDPPort": 14550,
+                    "SimCompID": 42,
+                    "SimSysID": 1
+                },
+                "Sensors": {
+                    "LidarSensor1": {
+                        "SensorType": 6,
+                        "Enabled": true,
+                        "NumberOfChannels": 32,
+                        "RotationsPerSecond": 20,
+                        "PointsPerSecond": 50000,
+                        "X": 0,
+                        "Y": 0,
+                        "Z": -0.5,
+                        "Roll": 0,
+                        "Pitch": 0,
+                        "Yaw": 0,
+                        "VerticalFOVUpper": 20,
+                        "VerticalFOVLower": -20,
+                        "HorizontalFOVStart": -90,
+                        "HorizontalFOVEnd": 90,
+                        "DrawDebugPoints": true,
+                        "DataFrame": "SensorLocalFrame"
+                    }
+                }
+            }
+        }
+    }
