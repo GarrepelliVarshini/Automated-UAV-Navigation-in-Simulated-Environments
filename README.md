@@ -1,8 +1,25 @@
-# AUTOMATED-UAV-NAVIGATION-IN-SIMULATED-ENVIRONMENTS
-Led the development and implementation of an AI-based autonomous drone navigation system using Soft Actor-Critic (SAC)-based deep reinforcement learning (DRL).
+AUTOMATED-UAV-NAVIGATION-IN-SIMULATED-ENVIRONMENTS
 
-Designed and integrated path planning, real-time obstacle detection, and adaptive learning using AirSim (simulation environment), Unreal Engine, and Kalman Filters for motion prediction.
+Automated UAV Navigation in Simulated Environments
+This project implements an autonomous Unmanned Aerial Vehicle (UAV) navigation system in a simulated environment using AI-based path planning techniques. It utilizes Microsoft's AirSim platform to simulate realistic flight conditions, enabling training and evaluation of UAV behavior with reinforcement learning and computer vision models.
 
-Developed the full coding framework, including environment perception, decision-making algorithms, and reinforcement learning models, ensuring seamless drone navigation in dynamic environments.
+Features
+* Integration with AirSim for high-fidelity UAV simulation
+* Autonomous navigation using reinforcement learning
+* Real-time obstacle detection and avoidance
+* Custom reward functions for path optimization
+* Flight trajectory visualization and performance metrics
 
-Published a journal paper on this project and presented it at a technical conference, showcasing its innovative approach to real-time autonomous navigation and AI-driven obstacle avoidance.
+Tech Stack
+* Python
+* AirSim (Unreal Engine Plugin)
+* OpenAI Gym
+* TensorFlow / PyTorch
+* NumPy, Pandas, Matplotlib
+
+ Use Cases
+* Autonomous drone flight training
+* Research in reinforcement learning for robotics
+* Simulation-based UAV deployment testing
+
+
